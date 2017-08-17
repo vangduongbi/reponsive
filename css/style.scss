@@ -1,7 +1,11 @@
 $whiteColor : #ffffff;
+<<<<<<< HEAD
 $blue:#129cf3;
 $black :#333;
 
+=======
+$blue:#129cf3;;
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
 *{
     padding : 0;
     margin: 0;
@@ -17,6 +21,7 @@ p{
 .clear{
     clear: both;
 }
+<<<<<<< HEAD
 .transition{
     transition:all 1s;
     -webkit-transition:all 1s;
@@ -61,6 +66,18 @@ p{
     
     background-image:url('../images/header-bg.jpg');
     @extend .background-fix;
+=======
+// Headder
+.header{
+    background-image:url('../images/header-bg.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
     .header-overlay{
         background-color:rgba(31,31,31,0.75);
         .logo{
@@ -217,7 +234,12 @@ p{
         color:#727272;
     }
 }
+<<<<<<< HEAD
 .background-fix{
+=======
+.testimonial{
+    background-image:url("../images/testimonial-bg.jpg");
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -225,6 +247,7 @@ p{
     -o-background-size:cover;
     -webkit-background-size:cover;
     background-position: 50% 50%;
+<<<<<<< HEAD
 }
 //testimonial
 .testimonial{
@@ -559,4 +582,9 @@ footer{
               }
           }
       }
+=======
+    .testimonial-overlay{
+        background-color:rgba(31,31,31,0.75);
+    }
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
 }

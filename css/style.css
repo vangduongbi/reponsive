@@ -13,6 +13,7 @@ p {
 .clear {
   clear: both; }
 
+<<<<<<< HEAD
 .transition, .header .navbar-default, .header .navbar-default .navbar-nav > li > a, .header .navbar-brand img, .available-on .available-on-item, .available-on .available-on-item i, .available-on .available-on-inner, .contact-us-form .form-control, .contact-us-form .submit-btn,
 .contact-us-form .submit-btn:active,
 .contact-us-form .submit-btn:focus,
@@ -42,6 +43,17 @@ p {
   .header .navbar-default .navbar-nav > .active > a:focus {
     background: transparent;
     color: #129CF3; }
+=======
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; }
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
   .header .header-overlay {
     background-color: rgba(31, 31, 31, 0.75); }
     .header .header-overlay .logo {
@@ -165,7 +177,12 @@ p {
     font-size: 15px;
     color: #727272; }
 
+<<<<<<< HEAD
 .background-fix, .header, .testimonial, .counter {
+=======
+.testimonial {
+  background-image: url("../images/testimonial-bg.jpg");
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,6 +190,7 @@ p {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-position: 50% 50%; }
+<<<<<<< HEAD
 
 .testimonial {
   background-image: url("../images/testimonial-bg.jpg"); }
@@ -423,5 +441,9 @@ footer {
       footer .scroll-top a i {
         font-size: 25px;
         color: #ffffff; }
+=======
+  .testimonial .testimonial-overlay {
+    background-color: rgba(31, 31, 31, 0.75); }
+>>>>>>> 396570810152e106b862964f4f3a213e948e8423
 
 /*# sourceMappingURL=style.css.map */
